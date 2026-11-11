@@ -1,0 +1,16 @@
+# Credenciales (nunca commitear)
+*.json
+!esquema_encuesta.json
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Datos reales (incluyen menores): se generan localmente, jamas se suben
+data.local.js
+resumen.local.js
+uploads/
+*.jpg
+*.jpeg
+*.JPG
